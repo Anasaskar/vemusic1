@@ -18,7 +18,7 @@ module.exports = {
     const queue = await player.createQueue(message.guild, {
             leaveOnEnd: false,
 		        leaveOnStop: false,
-            channelEmpty: false,
+            channelEmpty: true,
             spotifyBridge: true,
             initialVolume: 75,
                     metadata: {
